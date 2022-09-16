@@ -11,13 +11,19 @@ build and run scripts you can use to start up the application.
 npm install
 ~~~
 
-2. Run the application
+2. Configuration
+
+~~~
+Copy .env.example to .env , add your current stripe secret and public key from yon stripe dashboard, and your redirect URL for payment confirmation
+~~~
+
+3. Run the application
 
 ~~~
 npm start
 ~~~
 
-3. Go to [http://localhost:3000/checkout](http://localhost:3000/checkout)
+4. Go to [http://localhost:3000/checkout](http://localhost:3000/checkout)
 
 
 
@@ -25,4 +31,6 @@ npm start
 Stripe Documentation
 ~~~
 
-3. Go to [https://stripe.com/docs](https://stripe.com/docs)
+5. Go to [https://stripe.com/docs](https://stripe.com/docs)
+
+6. Stripe Quick start [https://stripe.com/docs/payments/quickstart](https://stripe.com/docs/payments/quickstart)
